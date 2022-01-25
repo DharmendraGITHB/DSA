@@ -14,3 +14,10 @@ x=4
 #call the function
 find=linearsearch(arr,n,x)
 print('x:',find)
+
+
+""" linear search complexities 
+
+   time complexity : O(n)
+   space complexity : O(1)
+   """
