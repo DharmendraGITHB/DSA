@@ -1,6 +1,7 @@
 # binary search problem
 # Ascending order
 # iterative method
+# binary search should be sorted first
 
 def binarysearch(arr, x, low, high):
     while low<=high:
