@@ -5,7 +5,7 @@ class Node:
         self.data = data
         self.next = None
 
-class Linkedlist:
+class Linkdlist:
     def __init__(self):
         self.head= None
     #inserting new node at the beginning
@@ -25,13 +25,13 @@ class Linkedlist:
             
 if __name__ == '__main__':
 
-    llist = Linkedlist()
+    objlist = Linkdlist()
 
-    llist.front(7)
-    llist.front(8)
-    llist.front(9)
+    objlist.front(7)
+    objlist.front(8)
+    objlist.front(9)
 
-    llist.printl()
+    objlist.printl()
 
 
 
