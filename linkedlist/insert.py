@@ -9,7 +9,7 @@ class Linkedlist:
     def __init__(self):
         self.head= None
     #inserting new node at the beginning
-    def push(self, data):
+    def front(self, data):
         new_node= Node(data)
 
         new_node.next= self.head
@@ -27,9 +27,9 @@ if __name__ == '__main__':
 
     llist = Linkedlist()
 
-    llist.push(7)
-    llist.push(8)
-    llist.push(9)
+    llist.front(7)
+    llist.front(8)
+    llist.front(9)
 
     llist.printl()
 
