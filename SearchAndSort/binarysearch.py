@@ -1,11 +1,32 @@
-#geeksforgeeks
-""" note- a binary search or half-interval algorithm is work on sorted arrays. """
-#given a sorted array arr[] of n elements, write a function to search a given element x in arr[].
+# binary search problem
+# Ascending order
 
-def binarysearch(arr,x,low,high):
-    if low <= high:
-        mid = low + (high -low)//2
-                                             #x is array elements
-                                             #low, high are the index value.
+def binarysearch(arr, x, low, high):
+    while low<=high:
+
+        mid = low + (high-low)//2
 
 
+        if array[mid]==x:
+            return mid
+        
+        elif array[mid]<x:
+            
+            low = mid + 1
+
+        else:
+            high = mid - 1
+
+
+    return -1
+
+array = [1,2,3,4,5,6,7,8,9,10]
+
+x= 6
+
+result = binarysearch(arr, x, 0, 9)
+
+if result ! = -1:
+    print("element is present" )
+else:
+    print("not found")
