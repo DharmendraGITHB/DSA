@@ -1,11 +1,11 @@
 class bruteforce:
 	def __init__(self, arr):
-		self.array = array
+		self.arr = arr
 
 
 	def search(self, target):
-		for i in range(len(self.array)):
-			if self.array[i] == target:
+		for i in range(len(self.arr)):
+			if self.arr[i] == target:
 				return i
 
 
@@ -14,7 +14,10 @@ class bruteforce:
 
 arr = [1,2,3,4,5,6,7,8,9]
 target = 5
-check = bruteforce(arr)
+b= bruteforce(arr)
+result = b.search(target)
+
+
 
 if result != -1:
 	print("target found at index:", result)
