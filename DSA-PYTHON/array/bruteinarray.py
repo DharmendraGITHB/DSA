@@ -14,7 +14,7 @@ class bruteforce:
 
 arr = [1,2,3,4,5,6,7,8,9]
 target = 5
-check = bruteforce(array)
+check = bruteforce(arr)
 
 if result != -1:
 	print("target found at index:", result)
