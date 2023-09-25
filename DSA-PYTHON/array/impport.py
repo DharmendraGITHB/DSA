@@ -9,6 +9,9 @@ class CustomArray:
                 if self.arr[j] > self.arr[j + 1]:
                     self.arr[j], self.arr[j + 1] = self.arr[j + 1], self.arr[j]
 
+        #print(self.arr)
+        return self.arr
+
 def main():
     user_input = int(input("Enter the number of elements you want to sort: "))
     arr = []
@@ -18,9 +21,9 @@ def main():
         arr.append(element)
 
     custom_array = CustomArray(arr)
-    custom_array.bubble_sort()
+    sorted_array = custom_array.bubble_sort()
 
-    print('Sorted array:', custom_array.arr)
+    print('Sorted array:', sorted_array )
 
 if __name__ == "__main__":
     main()
