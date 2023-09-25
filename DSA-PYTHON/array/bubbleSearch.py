@@ -13,7 +13,7 @@ def main():
 	
 	user_input = int(input("enter the number of input YOU WANT: "))
 
-	#arr = []
+	arr = []
 	for i in range(user_input):
 		element = input(f"enter a element {i+1}: ")
 		arr.append(element)
