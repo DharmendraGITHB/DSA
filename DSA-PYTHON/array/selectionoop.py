@@ -42,3 +42,10 @@ def main():
 
 if __name__=="__main__":
 	main()
+
+
+"""
+Number of comparisons: (n - 1) + (n - 2) + (n - 3) + ..... + 1 = n(n - 1) / 2 nearly equals to n^2
+and time complexity = O(n^2)
+
+"""
