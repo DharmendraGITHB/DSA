@@ -18,3 +18,4 @@ print(fun)
 
 # space complexity of this recursive algorithm is O(n) as well, This is because for each recursive call a new stack frame is created to store the functions local variables 
 
+""" this is not the optimal solution """
